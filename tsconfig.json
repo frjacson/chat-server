@@ -9,7 +9,10 @@
     "esModuleInterop": true,
     "module": "es2020",
     "allowSyntheticDefaultImports": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    // 开启装饰器，typegoose需要使用
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   },
   // 需要编译的的文件和目录
   "include": ["src/**/*", "app.ts"],
