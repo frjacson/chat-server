@@ -1,5 +1,5 @@
 // 引入koa
-import Koa, { Context, Next } from "koa";
+import Koa from "koa";
 import bodyparser from "koa-bodyparser";
 // 引入路由
 import useRoutes from "./routers/index";
