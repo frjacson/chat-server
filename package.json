@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@koa/cors": "^4.0.0",
-    "@types/koa__cors": "^4.0.0",
+    "@typegoose/typegoose": "^11.2.0",
     "ali-oss": "^6.17.1",
     "ioredis": "^5.3.0",
     "jsonwebtoken": "^9.0.0",
@@ -22,6 +22,7 @@
     "koa-router": "^12.0.0",
     "md5": "^2.3.0",
     "moment": "^2.29.4",
+    "mongoose": "^7.2.2",
     "pm2": "^5.2.2",
     "qs": "^6.11.0",
     "ts-node": "^10.9.1"
@@ -33,8 +34,10 @@
     "@types/koa": "^2.13.5",
     "@types/koa-bodyparser": "^4.3.10",
     "@types/koa-router": "^7.4.4",
+    "@types/koa__cors": "^4.0.0",
     "@types/md5": "^2.3.2",
     "@types/moment": "^2.13.0",
+    "@types/node": "^20.2.5",
     "@types/qs": "^6.9.7",
     "ts-node-dev": "^2.0.0",
     "typescript": "^4.9.5"
